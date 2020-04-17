@@ -1,0 +1,11 @@
+node_modules
+_book
+.vscode
+.vagrant
+npm-debug.log
+**/**/.vagrant
+*.pdf
+examples/localhost
+.DS_Store
+**/**/.DS_Store
+.idea/

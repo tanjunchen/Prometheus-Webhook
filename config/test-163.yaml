@@ -1,0 +1,17 @@
+global:
+  smtp_smarthost: 'smtp.163.com:25'
+  smtp_from: 'xxx@163.com'
+  smtp_auth_username: 'xxx@163.com'
+  smtp_auth_password: 'xxx'
+
+route:
+  group_by: ['alertname']
+
+  repeat_interval: 1h
+
+  receiver: tanjunchen
+
+receivers:
+  - name: 'tanjunchen'
+    email_configs:
+      - to: 'xxx@qq.com'
